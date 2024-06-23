@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import ContactImg from "../assets/contact.jpg";
+import ContactUs from "../assets/contactUs.avif";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
@@ -11,7 +11,7 @@ function ContactPage() {
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={ContactImg}
+        heroImg={ContactUs}
         title="Contact"
         btnClass="hide"
       />

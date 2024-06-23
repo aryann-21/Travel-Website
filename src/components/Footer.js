@@ -10,44 +10,44 @@ function Footer() {
           <p>Explore Rajasthan’s royal heritage, vibrant culture, and stunning beauty</p>
         </div>
         <div>
-          <a className={classes["fb"]} style={{ cursor: 'pointer' }}>
+          <p className={classes["fb"]} style={{ cursor: 'pointer' }}>
             <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a className={classes["tw"]} style={{ cursor: 'pointer' }}>
+          </p>
+          <p className={classes["tw"]} style={{ cursor: 'pointer' }}>
             <i class="fa-brands fa-square-twitter"></i>
-          </a>
-          <a className={classes["in"]} style={{ cursor: 'pointer' }}>
+          </p>
+          <p className={classes["in"]} style={{ cursor: 'pointer' }}>
             <i class="fa-brands fa-square-instagram"></i>
-          </a>
+          </p>
         </div>
       </div>{" "}
       {/* Bottom Section */}
       <div className={classes["bottom-row"]}>
         <div>
           <h4>Project</h4>
-          <a>Changelog</a>
-          <a>Status</a>
-          <a>License</a>
-          <a>All Versions</a>
+          <p>Changelog</p>
+          <p>Status</p>
+          <p>License</p>
+          <p>All Versions</p>
         </div>
         <div>
           <h4>Community</h4>
-          <a>GitHub</a>
-          <a>Issues</a>
-          <a>Project</a>
-          <a>Twitter</a>
+          <p>GitHub</p>
+          <p>Issues</p>
+          <p>Project</p>
+          <p>Twitter</p>
         </div>
         <div>
           <h4>Help</h4>
-          <a>Support</a>
-          <a>TroubleShooting</a>
-          <a>Contact Us</a>
+          <p>Support</p>
+          <p>TroubleShooting</p>
+          <p>Contact Us</p>
         </div>
         <div>
           <h4>Others</h4>
-          <a>Term of Service</a>
-          <a>Privacy Policy</a>
-          <a>License</a>
+          <p>Term of Service</p>
+          <p>Privacy Policy</p>
+          <p>License</p>
         </div>
       </div>
     </div>

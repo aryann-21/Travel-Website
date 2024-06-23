@@ -1,18 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import ServiceImg from "../assets/8.jpg";
+import exploreImg from "../assets/exploreImg.avif";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
 
-function ServicePage() {
+function explorePage() {
   return (
     <>
       <Navbar />
       <Hero
         cName="hero-mid"
-        heroImg={ServiceImg}
-        title="Service"
+        heroImg={exploreImg}
+        title="explore"
         btnClass="hide"
       />
       <Trip />
@@ -21,4 +21,4 @@ function ServicePage() {
   );
 }
 
-export default ServicePage;
+export default explorePage;

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import CarImg from "../assets/car.jpg";
+import homeImg from "../assets/homeImg.avif";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
@@ -26,7 +26,7 @@ function HomePage() {
       <Navbar />
       <Hero
         cName="hero"
-        heroImg={CarImg}
+        heroImg={homeImg}
         title="Padharo Mahare Desh"
         text="Your Journey, Your Adventure, Your Royal Heritage"
         buttonText="Plan your travel"
